@@ -12,7 +12,7 @@ const cors = require("cors");
 const app = express();
 
 app.use(cors({
-    origin: '*'
+    origin: ['https://mern-project-b4sq.onrender.com']
 }));
 
 app.use(bodyParser.json());
